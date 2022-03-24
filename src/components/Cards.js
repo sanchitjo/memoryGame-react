@@ -46,7 +46,7 @@ const Cards = ({increamentCounter, matchCounter}) => {
                 items[currentValue].status = ''
                 setItems([...items])
                 setPrevValue(-1)
-            }, 1000)
+            }, 600)
         }
         
     }
